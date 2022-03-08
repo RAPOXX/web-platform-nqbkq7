@@ -1,0 +1,120 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+header {
+  width: 100%;
+  padding: 15px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+header img {
+  width: 64px;
+  height: 32px;
+}
+
+header i {
+  font-size: 24px;
+}
+
+
+  section {
+    width: 100%;
+    height: 100vh;
+    background: url(https://images03.nicepage.com/c461c07a441a5d220e8feb1a/415c837ec5155a39bd890a19/rfr-min.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  section h1 {
+    font-size: 48px;
+    font-family: Montserrat;
+    color: #fd853d;
+    margin: 20px 0;
+  }
+
+  section p {
+    color: white;
+    margin: 20px 0;
+  }
+
+
+  section button {
+    width: 200px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background: none;
+    border: 1px solid orange;
+    border-radius: 8px;
+    font-size: 16px;
+    color: white;
+    margin: 20px 0;
+  }
+
+
+  .slider2 {
+    display: none;
+  }
+
+  .menu {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 300px;
+    height: 100vh;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+  
+  }
+
+  .menu picture {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding: 20px 30px;
+  }
+
+  .menu i:hover {
+    cursor: pointer;
+  }
+
+  .menu i {
+    font-size: 30px;
+  }
+
+  .menu nav a {
+    color: white;
+    margin: 20px 0 ;
+    text-decoration: none;
+  }
+
+  .menu nav a:hover {
+    cursor: pointer;
+    color: rgb(218, 206, 206);
+  }
+
+  .menu_transparente {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    left: 300px;
+
+  }
+
+  section p span {
+    border-bottom: 1px solid #fd853d;
+  }
